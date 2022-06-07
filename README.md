@@ -4,6 +4,11 @@
  unzip ngrok-stable-linux-amd64.zip
  mv /usr/local/src/ngrok /usr/bin/
 
+
+ ngrok authtoken 2AEAT5i8maUrlFhDogd9XGoPuL2_7mxmRPMe2w6weHWVk6tgX
+ sudo apt install apache2
+sudo service apache2 start
+ngrok http 80
 ```
 ![image](https://user-images.githubusercontent.com/46539072/172403354-27839750-95a0-4b29-b86c-73f884744c96.png)
 
